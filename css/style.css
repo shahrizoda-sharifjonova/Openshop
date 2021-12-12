@@ -450,4 +450,7 @@ body{
 .footer-icons{
     transform: translateY(-25px);
 }
+.fas , .fal:hover{
+    cursor: pointer;
+}
 
