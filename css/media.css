@@ -3,4 +3,7 @@
         --mainColor: #fff;
         --body: #313131;
     }
+    .header-top, .footer{
+        background: #0C0C0C;
+    }
 }
