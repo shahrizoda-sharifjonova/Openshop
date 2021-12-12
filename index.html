@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Open shop</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="container ">
+                <ul class="header-top__list">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle drop__link" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              English
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item" href="#">English</a></li>
+                              <li><a class="dropdown-item" href="#">Russian</a></li>
+                            </ul>
+                          </div>
+                    <a href="" class="header-top__link"><i class="fal fa-phone-alt header-top__icon"></i>(907) 555-0101</a>
+                    <a href="" class="header-top__link"><i class="fal fa-user header-top__icon"></i>Sing in</a>
+                    <a href="" class="header-top__link"><i class="fal fa-shopping-cart header-top__icon"></i>Cart</a>
+                </ul>
+            </div>
+        </div>
+        <div class="header-search container">
+            <a href="" class="header__logo"><svg width="187" height="64" viewBox="0 0 187 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1_318_41" fill="white">
+<path d="M22 48.9106V29.6585H44.6406C48.7674 28.7509 56.7738 24.483 57.3616 14.5691H36.8335L22 0H44.6406C48.8911 0.607046 57.3922 4.05854 57.3922 13.0081C57.4023 13.5433 57.3916 14.0636 57.3616 14.5691H60.515C64.5921 15.7832 71.2857 19.2 72 29.6585C72 38.1919 64.3318 42.4932 60.515 44.2276H36.8335V64L22 48.9106Z"/>
+</mask>
+<path d="M22 48.9106H-8C-8 56.7782 -4.90932 64.3309 0.606136 69.9416L22 48.9106ZM22 29.6585V-0.341463C5.43146 -0.341463 -8 13.09 -8 29.6585H22ZM44.6406 29.6585V59.6585C46.8076 59.6585 48.9683 59.4237 51.0847 58.9583L44.6406 29.6585ZM57.3922 13.0081H27.3922C27.3922 13.1968 27.394 13.3856 27.3975 13.5742L57.3922 13.0081ZM44.6406 0L48.8821 -29.6987C47.4771 -29.8993 46.0598 -30 44.6406 -30V0ZM22 0V-30C9.81702 -30 -1.15615 -22.6322 -5.76772 -11.3558C-10.3793 -0.0793258 -7.71338 12.8662 0.978395 21.4031L22 0ZM36.8335 14.5691L15.8119 35.9722C21.4217 41.482 28.9704 44.5691 36.8335 44.5691V14.5691ZM60.515 14.5691L69.0771 -14.1831C66.2984 -15.0106 63.4144 -15.4309 60.515 -15.4309V14.5691ZM72 29.6585H102C102 28.9766 101.977 28.2948 101.93 27.6144L72 29.6585ZM60.515 44.2276V74.2276C64.7965 74.2276 69.0283 73.3112 72.9262 71.54L60.515 44.2276ZM36.8335 44.2276V14.2276C20.265 14.2276 6.83349 27.6591 6.83349 44.2276H36.8335ZM36.8335 64L15.4396 85.031C23.9786 93.7173 36.9221 96.3784 48.1954 91.7652C59.4686 87.1521 66.8335 76.1806 66.8335 64H36.8335ZM52 48.9106V29.6585H-8V48.9106H52ZM22 59.6585H44.6406V-0.341463H22V59.6585ZM51.0847 58.9583C62.3965 56.4704 85.6174 44.8729 87.309 16.3449L27.4142 12.7933C27.6289 9.17268 29.5093 5.75363 31.852 3.56572C32.8477 2.6359 33.8213 2.0126 34.6695 1.5805C35.4583 1.17868 36.5856 0.713123 38.1965 0.358819L51.0847 58.9583ZM87.309 16.3448C87.3861 15.0453 87.4114 13.7438 87.3868 12.442L27.3975 13.5742C27.3932 13.3429 27.3971 13.0818 27.4142 12.7934L87.309 16.3448ZM87.3922 13.0081C87.3922 -2.50125 79.4636 -13.7723 70.9797 -20.3429C63.4163 -26.2005 55.0583 -28.8166 48.8821 -29.6987L40.3991 29.6987C38.4734 29.4236 36.4912 28.8368 34.241 27.0941C32.8855 26.0443 31.0852 24.2772 29.6276 21.5902C28.0922 18.7598 27.3922 15.7322 27.3922 13.0081H87.3922ZM44.6406 -30H22V30H44.6406V-30ZM0.978395 21.4031L15.8119 35.9722L57.8551 -6.83398L43.0216 -21.4031L0.978395 21.4031ZM36.8335 44.5691H57.3616V-15.4309H36.8335V44.5691ZM57.3616 44.5691H60.515V-15.4309H57.3616V44.5691ZM51.953 43.3213C51.1449 43.0807 48.6319 42.2306 46.1168 39.6701C44.7968 38.3263 43.7209 36.7487 42.9916 35.0813C42.2731 33.4386 42.1035 32.1967 42.0697 31.7027L101.93 27.6144C101.115 15.6759 96.5038 5.34437 88.9203 -2.37576C81.8605 -9.56281 73.9622 -12.7284 69.0771 -14.1831L51.953 43.3213ZM42 29.6585C42 27.1235 42.607 24.5906 43.6704 22.3637C44.675 20.2598 45.8655 18.8795 46.6339 18.1224C47.9101 16.865 48.7301 16.6308 48.1039 16.9153L72.9262 71.54C76.1168 70.0901 82.6792 66.838 88.7437 60.863C95.2562 54.4467 102 43.9619 102 29.6585H42ZM60.515 14.2276H36.8335V74.2276H60.515V14.2276ZM6.83349 44.2276V64H66.8335V44.2276H6.83349ZM58.2274 42.969L43.3939 27.8796L0.606136 69.9416L15.4396 85.031L58.2274 42.969Z" fill="#313131" mask="url(#path-1-inside-1_318_41)"/>
+<path d="M87.4737 41H77.7297V23.864H87.4737V26.432H80.8017V30.8H87.0417V33.368H80.8017V38.408H87.4737V41ZM106.88 41H103.064L94.9525 27.56H94.8565C94.9045 28.28 94.9445 29.056 94.9765 29.888C95.0245 30.704 95.0565 31.528 95.0725 32.36V41H92.3125V23.864H96.1045L104.192 37.208H104.264C104.232 36.568 104.2 35.832 104.168 35C104.136 34.168 104.112 33.36 104.096 32.576V23.864H106.88V41ZM129.938 36.32C129.938 37.84 129.386 39.04 128.282 39.92C127.178 40.8 125.65 41.24 123.698 41.24C121.81 41.24 120.21 40.92 118.898 40.28V37.4C119.618 37.72 120.41 38.016 121.274 38.288C122.138 38.544 123.018 38.672 123.914 38.672C124.938 38.672 125.69 38.472 126.17 38.072C126.65 37.672 126.89 37.144 126.89 36.488C126.89 35.768 126.586 35.2 125.978 34.784C125.37 34.368 124.482 33.912 123.314 33.416C122.61 33.112 121.938 32.752 121.298 32.336C120.658 31.92 120.13 31.392 119.714 30.752C119.298 30.112 119.09 29.296 119.09 28.304C119.09 26.832 119.602 25.688 120.626 24.872C121.666 24.04 123.05 23.624 124.778 23.624C125.69 23.624 126.538 23.72 127.322 23.912C128.122 24.104 128.922 24.376 129.722 24.728L128.738 27.2C128.018 26.896 127.33 26.656 126.674 26.48C126.034 26.304 125.37 26.216 124.682 26.216C123.85 26.216 123.218 26.408 122.786 26.792C122.354 27.16 122.138 27.64 122.138 28.232C122.138 28.712 122.258 29.112 122.498 29.432C122.738 29.752 123.106 30.048 123.602 30.32C124.114 30.592 124.77 30.904 125.57 31.256C126.482 31.656 127.266 32.072 127.922 32.504C128.578 32.936 129.074 33.456 129.41 34.064C129.762 34.672 129.938 35.424 129.938 36.32ZM148.053 41H144.981V33.392H137.445V41H134.373V23.864H137.445V30.776H144.981V23.864H148.053V41ZM169.026 32.408C169.026 34.184 168.73 35.736 168.138 37.064C167.562 38.376 166.674 39.4 165.474 40.136C164.274 40.872 162.77 41.24 160.962 41.24C159.138 41.24 157.626 40.872 156.426 40.136C155.242 39.4 154.354 38.368 153.762 37.04C153.186 35.712 152.898 34.16 152.898 32.384C152.898 30.624 153.186 29.088 153.762 27.776C154.354 26.448 155.242 25.424 156.426 24.704C157.626 23.968 159.146 23.6 160.986 23.6C162.794 23.6 164.29 23.968 165.474 24.704C166.674 25.424 167.562 26.448 168.138 27.776C168.73 29.088 169.026 30.632 169.026 32.408ZM156.138 32.408C156.138 34.344 156.522 35.864 157.29 36.968C158.058 38.072 159.282 38.624 160.962 38.624C162.658 38.624 163.882 38.072 164.634 36.968C165.402 35.864 165.786 34.344 165.786 32.408C165.786 30.472 165.41 28.952 164.658 27.848C163.906 26.744 162.682 26.192 160.986 26.192C159.306 26.192 158.074 26.744 157.29 27.848C156.522 28.952 156.138 30.472 156.138 32.408ZM178.987 23.864C181.211 23.864 182.827 24.328 183.835 25.256C184.859 26.184 185.371 27.464 185.371 29.096C185.371 30.072 185.163 30.992 184.747 31.856C184.331 32.704 183.627 33.392 182.635 33.92C181.659 34.432 180.331 34.688 178.651 34.688H176.947V41H173.875V23.864H178.987ZM178.795 26.408H176.947V32.144H178.339C179.587 32.144 180.547 31.92 181.219 31.472C181.907 31.008 182.251 30.256 182.251 29.216C182.251 28.272 181.971 27.568 181.411 27.104C180.851 26.64 179.979 26.408 178.795 26.408Z" fill="#313131"/>
+            <path d="M17.5635 32.408C17.5635 34.184 17.2675 35.736 16.6755 37.064C16.0995 38.376 15.2115 39.4 14.0115 40.136C12.8115 40.872 11.3075 41.24 9.49953 41.24C7.67553 41.24 6.16353 40.872 4.96353 40.136C3.77953 39.4 2.89153 38.368 2.29953 37.04C1.72353 35.712 1.43553 34.16 1.43553 32.384C1.43553 30.624 1.72353 29.088 2.29953 27.776C2.89153 26.448 3.77953 25.424 4.96353 24.704C6.16353 23.968 7.68353 23.6 9.52353 23.6C11.3315 23.6 12.8275 23.968 14.0115 24.704C15.2115 25.424 16.0995 26.448 16.6755 27.776C17.2675 29.088 17.5635 30.632 17.5635 32.408ZM4.67553 32.408C4.67553 34.344 5.05953 35.864 5.82753 36.968C6.59553 38.072 7.81953 38.624 9.49953 38.624C11.1955 38.624 12.4195 38.072 13.1715 36.968C13.9395 35.864 14.3235 34.344 14.3235 32.408C14.3235 30.472 13.9475 28.952 13.1955 27.848C12.4435 26.744 11.2195 26.192 9.52353 26.192C7.84353 26.192 6.61153 26.744 5.82753 27.848C5.05953 28.952 4.67553 30.472 4.67553 32.408Z" fill="#313131"/>
+            </svg>
+            </a>
+            <form action="" class="header__form">
+                <input type="text" class="header__input " placeholder="What are you looking for?" >
+                <button type="submit" class="header__button"><i class="fal fa-search header__icon"></i>SEARCH OUR STORE</button>
+            </form>
+        </div>
+        <div class="header-nav">
+            <div class="container">
+                <ul class="header-nav__list">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle header-nav__link" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Cell Phones
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Xiaomi</a></li>
+                          <li><a class="dropdown-item" href="#">Apple</a></li>
+                          <li><a class="dropdown-item" href="#">Samsung</a></li>
+                          <li><a class="dropdown-item" href="#">Huawei</a></li>
+                          <li><a class="dropdown-item" href="#">BQ</a></li>
+                          <li><a class="dropdown-item" href="#">Nokia</a></li>
+                          <li><a class="dropdown-item" href="#">Vivo</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle header-nav__link" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Computers&Laptop
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Mack</a></li>
+                          <li><a class="dropdown-item" href="#">Acer</a></li>
+                          <li><a class="dropdown-item" href="#">Asus</a></li>
+                          <li><a class="dropdown-item" href="#">HP</a></li>
+                          <li><a class="dropdown-item" href="#">Artel</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle header-nav__link" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Tv&Video
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Artel</a></li>
+                          <li><a class="dropdown-item" href="#">Samsung</a></li>
+                          <li><a class="dropdown-item" href="#">Versel</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle header-nav__link" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Asseccories
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Artel</a></li>
+                          <li><a class="dropdown-item" href="#">Samsung</a></li>
+                          <li><a class="dropdown-item" href="#">LG</a></li>
+                          <li><a class="dropdown-item" href="#">Haier</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle header-nav__link" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Home Appliance
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Samsung</a></li>
+                          <li><a class="dropdown-item" href="#">LG</a></li>
+                          <li><a class="dropdown-item" href="#">Artel</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle header-nav__link" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Video Games & Consoles
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Samsung</a></li>
+                          <li><a class="dropdown-item" href="#">Artel</a></li>
+                          <li><a class="dropdown-item" href="#">Acer</a></li>
+                          <li><a class="dropdown-item" href="#">Apple</a></li>
+                          <li><a class="dropdown-item" href="#">Defender</a></li>
+                        </ul>
+                    </div>
+                </ul>
+            </div>
+            
+        </div>
+    </header>
+    <main>
+        <div class="intro">
+            <div class="container">
+                <div class="row d-flex justify-content-between align-items-center">
+                    <div class="col-12 col-lg-6">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active carousel-indicator" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="carousel-indicator" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="carousel-indicator" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="img/intro1.png" class="d-block" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/intro2.png" class="d-block" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/intro1.png" class="d-block" alt="...">
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <h1 class="intro__title">Color your days with small joy</h1>
+                        <a href="SHOP NOW" class="intro__btn all-btn">SHOP NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+</html>

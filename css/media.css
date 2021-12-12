@@ -1,0 +1,6 @@
+@media(prefers-scheme-color: dark){
+    :root{
+        --mainColor: #fff;
+        --body: #313131;
+    }
+}
